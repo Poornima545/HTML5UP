@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;
+  background-color: #312450;
+  padding: 20px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff59;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff59;
+}
+
+.navigation a.active {
+  color: white;
+  border-bottom: 2px solid #b74e91;
+  padding-bottom: 22px;
+}
+
+.welcome-section {
+  padding: 0 30px;
+  background-color: #5e42a6;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  background-image: url("https://html5up.net/uploads/demos/hyperspace/assets/css/images/intro.svg");
+}
+
+.welcome-section h1 {
+  font-size: 44px;
+  color: #fff;
+  margin: 0;
+}
+
+.welcome-section p,
+.about-section p {
+  font-size: 20px;
+  width: 58%;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.about-section p {
+  width: 90%;
+}
+
+.heading {
+  font-size: 28px !important;
+  color: #fff;
+  margin: 0;
+}
+
+.description {
+  color: #b6aad7;
+  font-size: 16px;
+}
+
+.anchor-btn {
+  font-size: 9.6px;
+  text-decoration: none;
+  border: 1px solid #b6aad7;
+  padding: 15px 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.anchor-btn:hover {
+  background-color: #ffffff0d;
+}
+
+.about-info {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.info-one {
+  background-color: rgb(80 82 181);
+}
+
+.info-two {
+  background-color: rgb(76 78 172);
+}
+
+.info-three {
+  background-color: rgb(72 74 163);
+}
+
+.img {
+  width: 326px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.services-details {
+  padding: 50px 30px 300px;
+  background-color: rgb(183 78 145);
+}
+
+.services-details p {
+  color: #ffffff8c;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.service-item {
+  border: 1px solid #ddd;
+  padding: 20px 30px;
+  background-color: rgb(187 87 151);
+}
+
+.service-item h2 {
+  font-size: 16px !important;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.service-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #b74e91;
+  font-weight: 900;
+  font-size: 1.5em;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.service-item p {
+  padding-left: 60px;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.contact-container {
+  padding: 30px 30px;
+  background-color: #5e42a6;
+}
+
+.contact-form {
+  display: flex;
+  gap: 20px;
+  line-height: 2;
+  color: #fff;
+}
+
+.input-field,
+.text-area {
+  background-color: #ffffff0d;
+  outline: none;
+  border: 1px solid #ffffff8c;
+  padding: 16px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.text-area:focus,
+.input-field:focus {
+  border: 2px solid #fff;
+}
+
+.contact-info {
+  line-height: 2;
+}
+
+.contact-info h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 17.6px;
+}
+
+.contact-info p {
+  color: #ffffff8c;
+}
+
+.social-icons {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+  color: #ddd;
+}
+
+.social-icons li:hover {
+  color: white;
+}
+
+.footer {
+  background-color: rgb(73 51 130);
+  padding: 20px 30px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px;
+  color: #ffffff26;
+  list-style-type: none;
+  font-size: 12.8px;
+}
+
+@media (max-width: 640px) {
+  .welcome-section {
+    width: 100%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .welcome-section,
+  .about-content {
+    padding-left: 30px !important;
+  }
+
+  .welcome-section h1 {
+    font-size: 32px !important;
+  }
+
+  .anchor-btn {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .about-info {
+    flex-direction: column;
+  }
+
+  .about-content {
+    padding: 20px 80px 50px;
+  }
+
+  .heading {
+    font-size: 20px !important;
+  }
+
+  .img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form div {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .contact-form .btn-message {
+    margin: 10px 0 30px;
+  }
+
+  .address {
+    margin-top: 50px;
+    line-height: 1;
+    margin-right: 300px;
+  }
+
+  .address p {
+    line-height: 2;
+  }
+}
