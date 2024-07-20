@@ -6,57 +6,237 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", Helvetica, sans-serif;
-}
-
-html {
-    margin: 50px;
-}
-
-.header-bg {
-    background-image: url('./assets/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    letter-spacing: 0.225em;
-    padding: 30px;
-}
-
-.header-bg h1 {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-    position: relative;
     text-align: center;
-    width: 35%;
+    color: #fff;
 }
 
-.header-bg h1::before,
-.header-bg h1::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    border: 2px solid #fff;
+.main {
+    margin: 50px 50px 0;
+}
+
+.main h2 {
+    letter-spacing: 0.225em;
 }
 
 
-.header-bg h1::before,
-.header-bg h1::after {
-    top: -10px;
+.desc,
+.services {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 2px;
 }
 
-.header-bg p {
-    width: 70%;
-    font-size: 13px;
+.main h2 {
+    font-size: 16px;
+    font-weight: 800;
     line-height: 1.7;
 }
 
-.header-bg a {
+.header-bg,
+.bottom-bg {
+    background-image: url("https://html5up.net/uploads/demos/spectral/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.header-bg h2 {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    position: relative;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.header-bg h2::before,
+.header-bg h2::after {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    left: 0;
+    right: 0;
+}
+
+.header-bg h2::before,
+.header-bg h2::after {
+    top: -10px;
+    bottom: -10px;
+}
+
+.header-bg p {
+    letter-spacing: 0.225em;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 50%;
+}
+
+.header-bg a,
+.bottom-bg a {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px dotted #fff;
 }
 
-.header-bg a:hover {
+.header-bg a,
+.footer a:hover {
     border-bottom: none;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #ed4933;
+    border-bottom: none !important;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.intro {
+    background-color: #21b2a6;
+    padding: 30px 100px;
+}
+
+.intro h2,
+.services h2 {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    padding-bottom: 20px;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.icon-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    /* border-radius: 50%; */
+    transform: rotate(45deg);
+    width: 50px;
+    height: 50px;
+}
+
+.icon-list .bi {
+    transform: rotate(-45deg);
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.icon-list li:first-child {
+    color: #00ffcc;
+}
+
+.icon-list li:nth-child(2) {
+    color: #00f0ff;
+}
+
+.icon-list li:last-child {
+    color: #76ddff;
+}
+
+.pic {
+    width: 100%;
+    height: 50vh;
+}
+
+.article-container {
+    background-color: #242b33;
+    padding-bottom: 20px;
+}
+
+.article-container h2,
+.article-container p {
+    margin: 20px auto;
+    width: 57%;
+}
+
+.article-container h2 {
+    font-weight: 800;
+}
+
+.services {
+    background-color: #505393;
+    padding: 20px 0;
+}
+
+.services article {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.services p {
+    color: #d3d4e4;
+}
+
+.item {
+    padding-top: 30px;
+    border-top: 2px solid rgba(0, 0, 0, 0.125);
+    padding-bottom: 20px;
+}
+
+.item i {
+    font-size: 2rem;
+    color: #00ffcc;
+}
+
+.item:nth-child(2) {
+    border-top: none !important;
+}
+
+
+.bottom-bg {
+    padding: 100px;
+}
+
+.btn-activate,
+.btn-learn {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px 0 0;
+}
+
+.btn-learn {
+    background: none;
+    padding: 15px;
+    border: 2px solid #fff !important;
+}
+
+.footer {
+    text-align: center;
+    background: #1d242a;
+    margin: 0 50px 50px;
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.copyright {
+    font-size: 11px;
+    line-height: 2.5;
+}
+
+
+.copyright li,
+.social-links li {
+    list-style: none;
 }
