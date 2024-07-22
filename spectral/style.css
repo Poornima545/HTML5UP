@@ -534,19 +534,17 @@ a {
         display: inline-block;
         padding: 15px 70px;
         width: 100%;
-
     }
 
     .bottom-bg h2,
     .bottom-bg p {
-        width: 100%;
         text-align: left;
-        padding-right: 1rem;
-        padding-top: 10px;
+        margin: 0;
     }
 
-    .social-links{
+    .social-links {
         font-size: 1.5rem;
         gap: 30px;
     }
+
 }
