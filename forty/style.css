@@ -347,11 +347,11 @@ hr {
         gap: 10px;
     }
 
-    .contact-list{
+    .contact-list {
         width: 50%;
         line-height: 1;
         border-left: 1px solid #ddd;
-    height: auto;
+        height: auto;
     }
 
 }
