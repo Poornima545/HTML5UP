@@ -75,6 +75,7 @@ body {
 .input-field:hover {
     border-color: #9bf1ff;
     color: #9bf1ff;
+    background-color: transparent;
 }
 
 .bg-img-one {
@@ -338,6 +339,11 @@ hr {
         padding: 50px 100px 50px 10em;
     }
 
+    .form-list {
+        width: 60%;
+        padding-right: 30px;
+    }
+
     .footer {
         padding: 50px 10em;
     }
@@ -348,9 +354,7 @@ hr {
     }
 
     .contact-list {
-        width: 50%;
         line-height: 1;
-        border-left: 1px solid #ddd;
         height: auto;
     }
 
