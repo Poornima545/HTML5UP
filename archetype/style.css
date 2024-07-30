@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #5e6875;
+}
+
+.header-nav {
+    background: #2F373F;
+    color: #ffffff;
+    height: 4em;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.header-nav,
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-nav i {
+    background: #ffffff;
+    border-radius: 100%;
+    color: #5f9dd2;
+    font-size: 15px;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.container {
+    padding: 10em 3em 3em;
+}
+
+#logo,
+.nav-links ul,
+.sidebar h2,
+.title,
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.sidebar h2,
+.intro h3,
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.sidebar {
+    margin: 0 0 3em 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.sidebar p {
+    font-size: 20px;
+}
+
+.sidebar hr {
+    border: 1px solid;
+    border-color: #bbb;
+    width: 8%;
+    margin: 30px 0 20px;
+}
+
+.major {
+    display: flex;
+}
+
+.content {
+    width: 25%;
+}
+
+.inner {
+    width: 75%;
+    padding: 0 0 0 4em;
+}
+
+.title {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.para {
+    margin-bottom: 32px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #5e6875;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-color: rgba(144, 144, 144, 0.25);
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.sidebar-img {
+    margin: 0 0 2em 0;
+    border-radius: 5px;
+}
+
+hr {
+    border-bottom-color: rgba(144, 144, 144, 0.25);
+    border-bottom: 1px solid;
+    margin: 3em 0;
+}
+
+.footer {
+    background: url("https://picsum.photos/id/101/1920/970");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.outer {
+    display: flex;
+    padding: 5em 3em 3em;
+    background-color: rgba(21, 27, 33, 0.6);
+}
+
+.outer p {
+    margin-bottom: 14px;
+}
+
+.footer a {
+    color: #fff;
+    border-color: #fff;
+}
+
+.about {
+    width: 40%
+}
+
+.address,
+.list {
+    width: 30%;
+    padding-left: 2rem;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.outer h3 i {
+    padding-right: 20px;
+}
+
+.address p,
+.list p {
+    padding-left: 2.3rem;
+}
+
+
+.copyright {
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 350px) {
+    .header-nav {
+        height: 3em;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    #logo a {
+        font-size: 13px;
+    }
+
+    #logo i {
+        width: 2em;
+        line-height: 2em;
+        height: 2em;
+    }
+
+    .container {
+        padding: 5em 1.5em 0.5em 1.5em;
+    }
+
+    .sidebar h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .sidebar p {
+        font-size: 14px;
+    }
+
+    .major {
+        flex-direction: column;
+    }
+
+    .content {
+        order: 2;
+    }
+
+    .inner .sidebar-img {
+        width: 276px;
+        height: 110px;
+    }
+
+    .para-list {
+        margin-bottom: 20px;
+    }
+
+    .intro h3 {
+        border-top: 2px solid #ddd;
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+
+    .sidebar hr {
+        width: 40%;
+    }
+
+    hr {
+        margin: 20px 0 40px;
+    }
+
+    .container p,
+    .para-list li,
+    .footer p {
+        font-size: 14px;
+    }
+
+    .content,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        background-attachment: scroll;
+        padding: 0;
+    }
+
+    .outer {
+        flex-direction: column;
+        padding: 50px 20px;
+        align-items: start;
+        background-color: rgba(21, 27, 33, 0.6);
+    }
+
+    .about,
+    .address,
+    .list {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .footer .copyright {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .copyright p {
+        margin-bottom: 5px;
+        font-size: 11px;
+    }
+
+}
