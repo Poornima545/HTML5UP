@@ -1,1 +1,1 @@
-## HTML5UP template prctice
+## HTML5UP template practice
