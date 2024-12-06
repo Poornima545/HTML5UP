@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+.header,
+.contact-info {
+    background-image: linear-gradient(to top, rgba(71, 46, 104, 0.9), rgba(71, 46, 104, 0.9)), url("./assets/cityview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 200;
+}
+
+.heading,
+.content {
+    font-size: 14px;
+}
+
+.btn,
+.heading {
+    text-transform: uppercase;
+}
+
+.atmosphere {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.atmosphere p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.atmosphere h1 {
+    line-height: 1.3;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 33px;
+    font-weight: 200;
+}
+
+.btn-started {
+    display: inline-block;
+    margin: 0;
+    outline: none;
+    font-size: 13px;
+    padding: 10px 40px !important;
+    background-color: #00a6d9;
+    border-radius: 5px;
+    color: #fff !important;
+    border: none !important;
+}
+
+.cards-container {
+    margin: 50px 40px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+    margin-bottom: 40px;
+}
+
+.text {
+    color: #00a6d9;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+
+.header-name {
+    font-size: 22px;
+    color: #637485;
+    padding: 0;
+    font-weight: 100;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card div {
+    margin-bottom: 30px;
+}
+
+.content {
+    color: #637485;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    min-width: 85%;
+    font-weight: 100;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #637485;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    margin-left: -20px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.icons-gallery {
+    text-align: center;
+    background: #00a6d9;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.icons-gallery i {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(0 166 217);
+    line-height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto 0.7em;
+}
+
+.icons-gallery h4 {
+    margin: 0 0 10px;
+}
+
+.icons-gallery p {
+    text-align: center !important;
+    letter-spacing: 2px;
+    margin: 0 0 40px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.items {
+    padding: 50px 10px 50px 30px;
+    margin-bottom: 40px;
+}
+
+.hr-style {
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+
+.pic {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.image-gallery {
+    padding: 50px 10px 30px 40px;
+    background: #f5f8fa;
+    margin-top: 50px;
+}
+
+.image-gallery h4 {
+    color: #637485;
+    line-height: 2;
+}
+
+.timeline {
+    margin-bottom: 50px;
+}
+
+.contact-info{
+    padding-bottom: 5rem;
+}
+
+.address {
+    box-shadow: 0 4px 8px #0000001a;
+    padding: 30px 20px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.contact {
+    margin-bottom: 30px;
+}
+
+.contact hr {
+    margin-left: -20px;
+}
+
+.contact .text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.contact .content {
+    padding-left: 40px;
+    margin-bottom: 0;
+}
+
+.contact .bi {
+    color: rgba(99, 116, 133, 0.25);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.get-in-touch{
+    background: #00a6d9;
+    padding: 20px;
+}
+
+.get-in-touch h4{
+    margin-top: 0;
+}
+
+.data-form{
+    background-color: #007ea4;
+    border-color: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+::placeholder{
+    color: #fff;
+}
+
+.btn-started{
+    border: 1px solid #ddd !important;
+}
