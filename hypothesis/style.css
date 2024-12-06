@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 0.5px;
+    color: #3b3b3b;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.top-bar {
+    padding: 10px 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: #3b3b3b;
+}
+
+.intro {
+    padding: 5em 0.36em 2em;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    color: #23b1ec
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.navigation,
+.btn,
+.para {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.features {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px 0 20px;
+}
+
+.icons-item {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.icons-item,
+.banner-list {
+    border-top: 1px solid #eeeeee;
+    margin: 2rem 0 0 0;
+    padding: 2rem 1rem 0 1rem;
+}
+
+.border-line {
+    border: none;
+    margin: 0;
+}
+
+.icons-item span {
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 50%;
+    color: #23b1ec;
+    font-size: 1.5em;
+    font-weight: 900;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.icons-item h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.icons-item p,
+.banner-list p,
+.footer p {
+    margin: 0 auto 25px;
+    max-width: 80%;
+}
+
+.details {
+    background-color: #23b1ec;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 40px 20px 0;
+}
+
+.details-item h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.details-item p {
+    margin: 0 auto 26px;
+}
+
+.title-list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    list-style-type: none;
+}
+
+.title-list li {
+    padding: 0 20px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.active {
+    color: #23b1ec;
+    background: #fff;
+}
+
+.banner {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 0 10px;
+    text-align: center;
+}
+
+.banner img {
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+    object-fit: cover;
+}
+
+.banner-list h4,
+.lorem-list h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.etiam {
+    background-color: #80bb2d;
+}
+
+.etiam img {
+    height: 95px;
+    width: 280px;
+}
+
+.auctor {
+    background-color: #f7f7f7;
+}
+
+.auctor article {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cards-container img {
+    width: 335px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.cards-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    text-align: center;
+}
+
+.card div,
+.card-box {
+    padding: 26px 26px 2px;
+}
+
+.cards-container .card h3,
+.footer h3 {
+    font-size: 16px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+
+.card p,
+footer p {
+    margin-bottom: 25px;
+}
+
+.border-box {
+    margin-bottom: 50px;
+}
+
+.card .btn-more {
+    font-size: 11px;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0 15px;
+}
+
+.social-links li {
+    display: inline-block;
+    padding-left: 10px;
+    letter-spacing: none;
+}
+
+.lorem-list,
+.morbi {
+    border-top: 1px solid #eeeeee;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.lorem-list li {
+    margin-bottom: 10px;
+}
+
+.lorem-list a {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-weight: 200;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.morbi {
+    margin-bottom: 50px;
+}
+
+.number {
+    font-size: 23px;
+    color: #3b3b3b;
+    font-weight: 200;
+}
+
+@media(min-width: 800px) {
+    .top-bar {
+        padding: 20px 30px;
+    }
+
+    .navigation .header-title::after {
+        font-weight: 200;
+        content: '  by pixelarity';
+    }
+
+    .navigation a:nth-child(2) {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+    }
+
+    .nav-links a {
+        font-weight: 200;
+        font-size: 14px;
+        color: #3b3b3b;
+    }
+
+    .active-link {
+        color: #000;
+        border-bottom: 3px solid #23b1ec;
+        padding-bottom: 10px;
+    }
+
+    .intro h1 {
+        font-size: 42px;
+        max-width: 40%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .intro p {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+
+    .features {
+        display: flex;
+        padding: 3rem 0 1rem 0;
+    }
+
+    .icons-item {
+        border-top: none;
+        margin: 0;
+    }
+
+    .details-item h2 {
+        font-size: 33px;
+        font-weight: lighter;
+    }
+
+    .details-item {
+        font-size: 18px;
+        padding: 40px 0 0;
+    }
+
+    .title-list {
+        font-size: 18px;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .title-list li {
+        width: 323px;
+        height: 80px;
+        padding: 0;
+    }
+
+    .details-item p {
+        max-width: 60%;
+        letter-spacing: 0.9px;
+        font-size: 18px;
+    }
+
+    .banner img {
+        width: 293px;
+        height: 292px;
+    }
+
+    .etiam img {
+        width: 997px;
+        height: 340px;
+    }
+
+    .footer {
+        padding: 6rem 5rem;
+    }
+
+    .lorem-list,
+    .morbi {
+        border-top: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lorem-list li {
+        list-style: none;
+    }
+
+    .flex-container {
+        display: flex;
+        text-align: left;
+    }
+
+    .lorem-list,
+    .morbi,
+    .links {
+        flex: 1;
+        margin: 0 20px 60px 0;
+    }
+
+    .links h3,
+    .morbi h3 {
+        font-size: 19px;
+        margin: 0 0 20px;
+    }
+
+    .links p,
+    .morbi p {
+        margin: 0 0 20px;
+    }
+
+    .lorem-list h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .social-links li {
+        font-size: 1.5rem;
+    }
+}
